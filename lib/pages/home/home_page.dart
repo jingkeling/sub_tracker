@@ -127,8 +127,8 @@ class HomePage extends HookWidget {
             child: Container(
               margin: const EdgeInsets.only(
                 top: 20,
-                left: 30,
-                right: 30,
+                left: 15,
+                right: 15,
               ),
               decoration: BoxDecoration(
                 borderRadius: const BorderRadius.all(Radius.circular(10)),
@@ -221,7 +221,7 @@ class HomePage extends HookWidget {
           SliverToBoxAdapter(
             child: Container(
               margin: const EdgeInsets.only(top: 20, bottom: 20),
-              padding: const EdgeInsets.symmetric(horizontal: 30),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -237,7 +237,7 @@ class HomePage extends HookWidget {
             ),
           ),
           SliverPadding(
-            padding: const EdgeInsets.symmetric(horizontal: 30),
+            padding: const EdgeInsets.symmetric(horizontal: 15),
             sliver: SliverList.separated(
               itemCount: list.value.length,
               itemBuilder: (context, index) {
